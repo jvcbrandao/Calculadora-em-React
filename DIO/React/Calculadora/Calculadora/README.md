@@ -1,70 +1,35 @@
-# Getting Started with Create React App
+Calculadora React
+Este é um projeto de calculadora implementado em React, uma biblioteca JavaScript amplamente utilizada para a construção de interfaces de usuário interativas. A calculadora permite que os usuários realizem operações matemáticas básicas, como adição, subtração, multiplicação e divisão, além de fornecer suporte para números decimais.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Funcionalidades Principais
+Operações Básicas: A calculadora suporta adição, subtração, multiplicação e divisão de números. Os usuários podem inserir números e selecionar a operação desejada usando os botões fornecidos na interface.
 
-## Available Scripts
+Limpeza e Reset: Há um botão de limpeza que permite aos usuários limpar o visor e recomeçar uma nova operação. Isso redefine todos os valores para os seus estados iniciais.
 
-In the project directory, you can run:
+Decimais: A calculadora suporta números decimais, permitindo que os usuários realizem cálculos com precisão, incluindo números fracionários.
 
-### `npm start`
+Estrutura do Projeto
+O projeto está estruturado de forma modular, com diferentes componentes React para gerenciar a entrada do usuário, a lógica de cálculo e a exibição dos resultados. Os principais componentes incluem:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Input: Responsável por exibir o número atual na calculadora.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Button: Componente reutilizável para os botões de operação e dígitos numéricos.
 
-### `npm test`
+Container e Content: Componentes de layout para organizar e estilizar a interface da calculadora.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Tecnologias Utilizadas
+React: Utilizado como a biblioteca principal para o desenvolvimento da interface do usuário.
 
-### `npm run build`
+JavaScript (ES6+): Linguagem de programação principal para a lógica de negócios e manipulação de eventos.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+CSS: Utilizado para estilização dos componentes e layout da calculadora.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Como Usar
+Para executar este projeto em seu ambiente local, siga estas etapas:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Clone este repositório em sua máquina local usando o comando git clone <URL do Repositório>.
+Navegue até o diretório do projeto usando o terminal.
+Instale as dependências do projeto usando npm install ou yarn install.
+Execute o projeto usando npm start ou yarn start.
+Acesse a calculadora em seu navegador usando o endereço fornecido pelo ambiente de desenvolvimento local (normalmente http://localhost:3000).
+Contribuição
